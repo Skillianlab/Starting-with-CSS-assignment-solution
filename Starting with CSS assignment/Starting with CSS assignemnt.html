@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Starting with CSS</title>
+    <!-- Internal CSS -->
+    <style>
+      /* This is a comment in CSS */
+      body {
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        background-color: antiquewhite;
+      }
+    </style>
+    <!-- External CSS (linked) -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="starting with CSS assignemnt.css"
+    />
+  </head>
+  <body>
+    <!-- Inline CSS -->
+    <div style="background-color: #ffc0cb; padding: 10px">
+      This is a div with inline CSS.
+    </div>
+
+    <!-- Internal CSS -->
+    <div class="container">This is a div styled using internal CSS.</div>
+
+    <!-- External CSS -->
+    <div class="container external-style">
+      This is a div styled using external CSS.
+    </div>
+  </body>
+</html>
